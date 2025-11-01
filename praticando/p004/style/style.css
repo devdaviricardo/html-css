@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-color: #45b5c4cc;
+    margin-left: 10px;
+}
+#aprender {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-color: #3c84c7d0;      
+
+    padding-top: 15px; 
+    padding-bottom: 10px;
+
+    margin-left: 90px;
+    margin-right: 100px;
+
+}
+h1 > a {
+    text-decoration: solid;
+}
+h1 > mark {
+    background-color: #496e74;
+    color: white;
+    
+}
+h2 > mark {
+    background-color: #496e74;
+    color: rgb(255, 255, 255);
+}
+h3 > mark {
+    background-color: #496e74;
+    color: rgb(255, 255, 255);
+}
+p {
+    
+    text-align: justify;
+}
+p > a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+}
+p > a:hover {
+    text-decoration: underline;
+}
